@@ -39,15 +39,7 @@ public class ScrollingActivity extends AppCompatActivity {
             }
         });
 
-        Stack<String> sample =new Stack<>();
-        sample.push("121");
-        sample.push("34");
-        sample.push("34");
-
-        Iterator<String> iterator =sample.iterator();
-        while (iterator.hasNext()){
-            Log.w("Stack Values",iterator.next());
-        }
+        Toast.makeText(getApplicationContext(),"This is the Entry point of the Restaurant App ",Toast.LENGTH_LONG).show();
 
         expandableListView = (ExpandableListView) findViewById(R.id.simple_expandable_listview);
 
