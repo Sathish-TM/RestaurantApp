@@ -1,4 +1,4 @@
-package com.f2f.restaurantapp;
+package com.example.restaurantapp;
 
 import java.util.HashMap;
 import java.util.List;
